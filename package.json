@@ -1,20 +1,19 @@
 {
-  "name": "eth-snolan",
-  "version": "3.0.1",
-  "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "build:watch": "tsc --watch",
-    "lint": "tslint --project \"./tsconfig.json\""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "@types/node": "^20.12.12",
-    "tslint": "^6.1.3",
-    "typescript": "^5.4.5"
-  }
+	"name": "eth-snolan",
+	"version": "3.0.1",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc",
+		"build:watch": "tsc --watch",
+		"lint": "tslint --project \"./tsconfig.json\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@types/node": "^20.12.12",
+		"tslint": "^6.1.3",
+		"typescript": "^5.4.5"
+	}
 }

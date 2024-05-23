@@ -1,7 +1,4 @@
-export function IsNullOrEmpty(str: string): boolean {
-    return str === null || str.trim().length === 0;
-}
+import { IsNullOrEmpty } from './assets/is-null-or-empty'
+import { IsNumber } from './assets/is-number'
 
-export function IsNumber(num: number): boolean {
-    return !isNaN(Number(num));
-}
+export { IsNullOrEmpty, IsNumber }
